@@ -58,6 +58,19 @@ export default function SignIn() {
 
           {error && <p className="error-message">{error}</p>}
 
+          <div
+            className="demo-credentials"
+            style={{
+              marginTop: "1rem",
+              fontSize: "0.875rem",
+              color: "#6b7280",
+            }}
+          >
+            <strong>Demo credentials:</strong>
+            <div>Username: hanif</div>
+            <div>Password: 12345</div>
+          </div>
+
           <button type="submit" className="primary-button full-width">
             Sign in
           </button>
