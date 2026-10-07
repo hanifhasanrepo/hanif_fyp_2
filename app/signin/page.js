@@ -42,7 +42,7 @@ export default function SignIn() {
             <input
               value={username}
               onChange={(event) => setUsername(event.target.value)}
-              placeholder="hanif"
+              placeholder=""
             />
           </label>
 
@@ -52,7 +52,7 @@ export default function SignIn() {
               type="password"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
-              placeholder="12345"
+              placeholder=""
             />
           </label>
 
